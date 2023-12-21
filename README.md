@@ -36,3 +36,13 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Reference docs:
+
+```
+Init SvelteKit & TailwindCSS - https://tailwindcss.com/docs/guides/s...
+Font Awesome CDN - https://cdnjs.com/libraries/font-awesome
+Font Awesome Icons - https://fontawesome.com/icons
+Google Fonts - https://fonts.google.com/
+Netlify (Deployment) - https://netlify.com/
+```
