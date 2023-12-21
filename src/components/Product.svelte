@@ -11,7 +11,7 @@
                 "Every workout is new and exciting",
             ],
             description: "Swoley Moley ensures all users have the information they need to train safely and train effectivelly.",
-            imgUrl: ""
+            imgUrl: "assets/selection.png"
         },
         {
             featureList: [
@@ -21,7 +21,7 @@
                 "Guarantees progress on all core exercises",
             ],
             description: "Build your streaks and see your progress with our amazing tracking and analytics features.",
-            imgUrl: ""
+            imgUrl: "assets/training.png"
         },
         {
             featureList: [
@@ -31,7 +31,7 @@
                 "Builds functional strength",
             ],
             description: "Enter as much information about yourself as you desire to ensure all workouts are personalized to your every need.",
-            imgUrl: ""
+            imgUrl: "assets/goal.png"
         },
     ]
 </script>
@@ -49,7 +49,7 @@
                     {#if index === 0}
                     Experience a beginner exercise <span class="text-indigo-400 font-medium">master</span> class
                     {:else if index === 1}
-                    Lay the foundations for <span class="text-indigo-400 font-medium">routine</span><br/>and consistency
+                    Lay the foundations for <span class="text-indigo-400 font-medium">routine</span>and consistency
                     {:else}
                     Workouts specific to your <span class="text-indigo-400 font-medium">environment</span> and <span class="text-indigo-400 font-medium">expertise</span>
                     {/if}
