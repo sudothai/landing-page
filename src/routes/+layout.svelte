@@ -1,8 +1,10 @@
 <script>
     import "../app.css";
+    // import "../components/Footer.svelte"
   </script>
   
   <slot />
+  <!-- <Footer /> -->
 
 <!-- header 
 hero 
