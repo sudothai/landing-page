@@ -10,7 +10,10 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, .poppins {
+h1,
+h2,
+h3,
+.poppins {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,13 +41,14 @@ button,
 }
 
 button:hover {
-    border-color: #646cff
+    border-color: #646cff;
 }
 
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
+
 
 .specialBtn {
     border-color: #646cff;
@@ -60,5 +64,19 @@ button:focus-visible {
 }
 
 .dropShadow {
-    filter: drop-shadow()-10.8923px 14.523px 35.0973px rgba(29, 140, 242, 0.2);
+    filter: drop-shadow(-10.8923px 14.523px 35.0973px rgba(29, 140, 242, 0.2));
+}
+
+.fadeIn {
+    animation: fadeIn 300ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
